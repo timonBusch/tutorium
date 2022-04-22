@@ -1,3 +1,7 @@
+/**
+ * Muss von einer Pflanzen Klasse implementiert werden
+ * @author Timon Buschendorf
+ */
 public interface IPflanze {
 
     /**
