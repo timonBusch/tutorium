@@ -8,11 +8,8 @@ public class Student {
 
     private List<Modul> modulList;
 
-    public Student(Modul modul1, Modul modul2, Modul modul3) {
+    public Student() {
         this.modulList = new ArrayList<>();
-        addModulList(modul1);
-        addModulList(modul2);
-        addModulList(modul3);
     }
 
     /**
@@ -33,6 +30,13 @@ public class Student {
      */
     public void addModulList(Modul modul){
         this.modulList.add(modul);
+    }
+
+    /**
+     * Leert die Modulliste des Studenten
+     */
+    public void clearModulList() {
+        this.modulList.clear();
     }
 
 }
